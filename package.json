@@ -1,0 +1,40 @@
+{
+    "name": "fashion_server",
+    "version": "1.0.0",
+    "description": "this is server for fashion",
+    "keywords": [
+        "typescript",
+        "express",
+        "mongodb"
+    ],
+    "license": "ISC",
+    "author": "Md. Mehedi Hasan",
+    "type": "commonjs",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "bcrypt": "^6.0.0",
+        "cookie-parser": "^1.4.7",
+        "cors": "^2.8.5",
+        "dotenv": "^17.2.3",
+        "express": "^5.2.1",
+        "helmet": "^8.1.0",
+        "jsonwebtoken": "^9.0.2",
+        "mongoose": "^9.0.0",
+        "nodemailer": "^7.0.11",
+        "zod": "^4.1.13"
+    },
+    "devDependencies": {
+        "@types/bcrypt": "^6.0.0",
+        "@types/cookie-parser": "^1.4.10",
+        "@types/cors": "^2.8.19",
+        "@types/express": "^5.0.6",
+        "@types/jsonwebtoken": "^9.0.10",
+        "@types/node": "^24.10.1",
+        "@types/nodemailer": "^7.0.4",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.9.3"
+    }
+}
