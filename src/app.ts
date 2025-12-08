@@ -2,7 +2,7 @@ import express from "express";
 import helmet from "helmet";
 import cors from "cors";
 import cookieParser from "cookie-parser";
-// import router from "./routes";
+import router from "./routes";
 import errorHandler from "./utils/errorHandler";
 import AppError from "./utils/AppError";
 
@@ -28,7 +28,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 // 5. Routes
-// app.use("/api", router);
+app.use("/api", router);
 
 // 6. Healthcheck / root route (optional placement)
 app.get("/", (req, res) => {
